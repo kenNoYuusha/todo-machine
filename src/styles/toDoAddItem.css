@@ -1,0 +1,51 @@
+.modalForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: "Baloo 2", cursive;
+    font-size: 2rem;
+}
+
+.titleModalForm {
+    
+}
+
+.inputModalForm {
+    padding: 15px 20px;
+    font-size: inherit;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 80%;
+}
+.buttonsContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonsContainer button {
+    padding: 10px 15px;
+    font-family: inherit;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.buttonsContainer button:first-child {
+    background: inherit;
+    border: 1px solid white;
+    color: white;
+}
+
+.buttonsContainer button:last-child {
+    background: #0E6655;
+    color: white;
+    border: 1px solid #0E6655;
+}

@@ -1,0 +1,11 @@
+.list-container {
+    width: 100%;
+}
+.todoList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-block-start: 20px;
+    gap: 25px;
+    width: 100%;
+}

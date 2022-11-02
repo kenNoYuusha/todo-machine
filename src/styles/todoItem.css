@@ -1,0 +1,29 @@
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    font-size: 2rem;
+    box-shadow: -2px -2px 5px 0 rgb(255 255 255 /.3), 2px 2px 5px 0 rgb(0 0 0 /.5);
+    border-radius: 10px;
+
+}
+
+.todoItem__check,
+.todoItem__delete {
+    display: grid;
+    place-items:center;
+    cursor: pointer;
+}
+
+.todoItem__check--checked {
+    color: #27AE60;
+}
+
+.todoItem__delete:hover {
+    color: #C0392B;
+}
+
+.todoCompleted {
+    text-decoration: line-through;
+}
